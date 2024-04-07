@@ -19,6 +19,8 @@ export const connectDb = async () => {
     await mongoose
       .connect(uri, {
         isAstra: true,
+        serverSelectionTimeoutMS: 30000, // Example: Increase timeout to 30 seconds
+
       })
       .then((res) => {
         console.log("connected");
