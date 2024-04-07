@@ -6,6 +6,7 @@ import { ClerkProvider } from '@clerk/nextjs'
 
 const clashDisplay = localFont({
   src: "../assets/fonts/ClashDisplay-Variable.ttf",
+  
   variable: "--font-clashDisplay",
   weight: "700",
 });

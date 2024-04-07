@@ -22,7 +22,7 @@ AWS.config.getCredentials(function (error) {
 
 const ses = new AWS.SES({ apiVersion: "2010-12-01" });
 
-const adminMail = "support@BulkMail.com";
+const adminMail = "raadbouks@gmail.com";
 
 // Create a transporter of nodemailer
 const transporter = nodemailer.createTransport({
